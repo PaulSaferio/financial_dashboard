@@ -1,0 +1,55 @@
+/* Custom scrollbar */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 3px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  /* Smooth transitions */
+  .smooth-transition {
+    transition: all 0.3s ease;
+  }
+  
+  /* Chart container responsive behavior */
+  .chart-container {
+    position: relative;
+    width: 100%;
+    min-height: 300px;
+  }
+  
+  @media (min-width: 640px) {
+    .chart-container {
+      min-height: 350px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .chart-container {
+      min-height: 400px;
+    }
+  }
+  
+  #wall{
+    background-color: rgb(235, 235, 235);
+  }
+  #maj{
+    margin-top: 1%;
+  }
+  #rad{
+    border-radius: 25%;
+  }
