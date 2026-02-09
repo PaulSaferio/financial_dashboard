@@ -4,7 +4,7 @@ import SettingsForm from '../components/SettingsForm';
 
 const Settings = () => {
  
-  const [activeSettingsTab, setActiveSettingsTab] = useState('profile');
+  
 
   return (
     <div className="flex flex-col h-screen">
