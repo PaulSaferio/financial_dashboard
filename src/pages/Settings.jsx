@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Sidebar from '../components/Sidebar';
-import Navbar from '../components/Navbar';
+//import Sidebar from '../components/Sidebar';
+//import Navbar from '../components/Navbar';
 import SettingsForm from '../components/SettingsForm';
 
 const Settings = () => {
-  const [activeTab, setActiveTab] = useState('settings');
+ // const [activeTab, setActiveTab] = useState('settings');
   const [activeSettingsTab, setActiveSettingsTab] = useState('profile');
 
   return (
