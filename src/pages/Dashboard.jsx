@@ -8,12 +8,12 @@ import Cardback from '../components/Cardback';
 import RecentTransactions from '../components/RecentTransactions';
 import Chart from '../components/Chart';
 import TransferForm from '../components/TransferForm';
-import { hover } from '@testing-library/user-event/dist/hover';
+//import { hover } from '@testing-library/user-event/dist/hover';
 
 const Dashboard = () => {
-  const [activeTab, setActiveTab] = useState('accounts');
+  //const [activeTab, setActiveTab] = useState('accounts');
 
-  const cards = [
+ /* const cards = [
     { id: 1, balance: '$5,756', holder: 'Eddy Cusuma', expiry: '12/22', lastFour: '•••• 4567' },
     { id: 2, balance: '$3,210', holder: 'Eddy Cusuma', expiry: '10/23', lastFour: '•••• 8910' }
   ];
@@ -22,7 +22,7 @@ const Dashboard = () => {
     { id: 1, description: 'Deposit from my Card', amount: '-$850', date: '28 Jan 2021', type: 'withdrawal' },
     { id: 2, description: 'Deposit Paypal', amount: '+$2,500', date: '25 Jan 2021', type: 'deposit' },
     { id: 3, description: 'Jemi Wilson', amount: '+$5,400', date: '21 Jan 2021', type: 'deposit' }
-  ];
+  ];*/
 
   const contacts = [
     { id: 1, name: 'Livia Bator', role: 'CEO', avatar: <img src={liviaimage} alt="Chip Icon" className="w-full h-full object-contain" style={{ borderRadius:25 }}/> },
