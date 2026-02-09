@@ -1,18 +1,14 @@
 import React, { useState } from 'react';
-
 import SettingsForm from '../components/SettingsForm';
 
 const Settings = () => {
- 
-  
+  // Add this state declaration - it was missing!
+  const [activeSettingsTab, setActiveSettingsTab] = useState('profile');
 
   return (
     <div className="flex flex-col h-screen">
-      
       <div className="flex flex-1 overflow-hidden">
-        
         <main className="flex-1 overflow-y-auto p-6">
-          
           {/* Settings Tabs */}
           <div className="border-b border-gray-200 mb-6">
             <nav className="flex space-x-8">
