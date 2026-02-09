@@ -5,7 +5,7 @@ const Card = () => {
   return (
     <div className="mb-6">
       <div className="flex justify-between items-center mb-3">
-        <h2 className="text-lg font-medium text-gray-800"></h2>
+        <h2 className="text-lg font-medium text-gray-800">Jina</h2>
         <button className="text-black-900 hover:text-black-800 text-sm mb-2">See All</button>
       </div>
       
