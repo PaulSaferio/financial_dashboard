@@ -1,5 +1,5 @@
 import { Line,Pie,PolarArea, Bar } from 'react-chartjs-2';
-import { Chart as ChartJS, CategoryScale, LinearScale, RadialLinearScale, BarElement, Title, Tooltip, Legend, ArcElement, PointElement, LineElement,TimeScale, ChartOptions } from 'chart.js';
+import { Chart as ChartJS, CategoryScale, LinearScale, RadialLinearScale, BarElement, Title, Tooltip, Legend, ArcElement, PointElement, LineElement,TimeScale } from 'chart.js';
 import ChartDataLabels from "chartjs-plugin-datalabels";
 
 ChartJS.register(
