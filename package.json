@@ -18,11 +18,10 @@
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "DISABLE_ESLINT_PLUGIN=true react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-
   "eslintConfig": {
     "extends": [
       "react-app",
@@ -41,7 +40,4 @@
       "last 1 safari version"
     ]
   }
-  "scripts": {
-  "build": "DISABLE_ESLINT_PLUGIN=true react-scripts --openssl-legacy-provider build"
-}
 }
