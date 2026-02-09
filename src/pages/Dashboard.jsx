@@ -1,4 +1,4 @@
-import React from 'react'; // Removed unused useState import
+import React from 'react';
 import liviaimage from "../images/liviaimage.png";
 import randy from "../images/randy.png";
 import workman from "../images/workman.png";
